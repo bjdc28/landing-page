@@ -59,7 +59,6 @@ body {
   flex-direction: column;
 }
 .rows {
-  border: 2px solid red;
   flex: 1 1 0;
 }
 /* row-1 */
@@ -157,6 +156,40 @@ body {
   text-align: right;
 }
 
+/* row-4 */
+.row-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign {
+  background: #3882f6;
+  height: 150px;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 10px;
+}
+.container-sign-1 {
+  color: #fff;
+  width: 400px;
+}
+.btn-2 {
+  border: 2px solid #fff ;
+  background: #3882f6;
+  display: inline-block;
+  padding: 6px 25px;
+  margin: 15px 0;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.sign-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3em;
+}
 
 /* Footer */
 .footer {
