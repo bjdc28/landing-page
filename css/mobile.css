@@ -1,0 +1,40 @@
+.main {
+  min-height: 2500px;
+}
+.header {
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 15px;
+}
+
+.hdr-links {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.row-1 {
+  flex-direction: column;
+}
+
+.placeholder-1 h2 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.info-pallet {
+  flex-direction: column;
+  margin-bottom: 35px;
+  min-width: auto;
+}
+
+.sign {
+  flex-direction: column;
+  height: auto;
+  min-width: auto;
+  flex: 1 1 0;
+}
+
+.container-sign-1 {
+  width: auto;
+  flex: 1 1 0;
+}
